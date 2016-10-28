@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="app">
+
+            <div ui-view></div>
+
+            <a ui-sref="hello" ui-sref-active="active">Hello</a>
+            <a ui-sref="about" ui-sref-active="active">About</a>
+
+
+            <script src="app.js"></script>
+
+
+        </div>
+    </body>
+</html>
